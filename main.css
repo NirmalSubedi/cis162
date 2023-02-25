@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    background-color: #DBD5B5;
+    margin: 0%;
+}
+
+header {
+    background-color: #44AF69;
+}
+
+.name {
+    color: black;
+    background-color: #2B9EB3;
+}
+
+h1, h2 {
+    color: aliceblue;
+    background-color: #FCAB10;
+    text-align: center;
+}
+
+nav > ul {
+    background-color: #94A562;
+    list-style-type: none;
+}
+
+section {
+    background-color: #FA6F26;
+    font-size: larger;
+    width: 90%;
+}
+
+footer {
+    background-color: #F8333C;
+}
