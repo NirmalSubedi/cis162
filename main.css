@@ -1,0 +1,114 @@
+* {    
+    font-size: 100%;    
+    margin: 0;
+    padding: 0;        
+    vertical-align: baseline; 
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #DBD5B5;
+    text-align: center;
+}
+
+header {
+    background-color: #44AF69;
+}
+
+.name {
+    color: black;
+    background-color: #2B9EB3;
+}
+
+h1, h2, h3 {
+    color: aliceblue;
+    background-color: #FCAB10;
+    text-align: center;
+    font-size: xx-large;
+}
+
+p {
+    text-align: center;
+}
+
+nav > ul {
+    background-color: #94A562;
+    list-style-type: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+body > header > nav.horizontalNavigation li {
+    width: 33%;
+}
+
+li#c {
+    width: 34%;
+}
+
+nav.horizontalNavigation :hover {
+    background: #677246;
+}
+
+nav.horizontalNavigation li {
+    display: block;
+    float: left;
+    background-color: #94A562;
+    font-size: larger;
+}
+
+nav.horizontalNavigation a {
+    display: block;
+    text-align: center;
+    background-color: #94A562;
+}
+
+section {
+    background-color: #FA6F26;
+    font-size: larger;
+}
+
+section#leftColumn {
+    clear: both;
+    float: left;
+    width: 50%;
+    background-color: #FB8D1B;
+}
+
+section#leftColumn img {
+    display: block;
+    width: 100%;
+}
+
+
+section#rightColumn {
+    float: left;
+    width: 50%;
+    background-color: #FA6F26;
+}
+
+div#indexRC {
+    padding-bottom: 8px;
+}
+
+div#aboutRC {
+    padding-bottom: 325px;
+}
+
+div#schoolRC {
+    padding-bottom: 559px;
+}
+
+ol#list1, ol#list2, ol#list3 {
+    display: inline-block;
+    text-align: left;
+    padding: 1%;
+}
+
+footer {
+    clear: both;
+    background-color: #F8333C;
+}
