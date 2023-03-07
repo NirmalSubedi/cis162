@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<link href="main.css" rel="stylesheet">
+<title>Nirmal Subedi</title>
+</head>
+
+<body>
+<header><h1 class="name">Nirmal Subedi</h1>
+<nav class="horizontalNavigation">
+    <ul>
+        <li id="a"><a href="index.html">Home</a></li>
+        <li id="b"><a href="about.html">About</a></li>
+        <li id="c"><a href="school.html">School</a></li>
+    </ul>
+</nav>
+</header>
+<section id="leftColumn"><img src="goal.png" alt=""> </section>
+<section id="rightColumn">
+<div id="aboutRC">
+<h2>Education Goals</h2>
+<ol id="list2">
+    <li>Pass all my Classes.</li>
+    <li>Learn as much as possible.</li>
+    <li>Challenge myself while learning.</li>
+</ol>
+
+<h3>Skills</h3>
+<ol id="list3">
+    <li>I am an excellent listener.</li>
+    <li>I can adapt pretty quickly.</li>
+    <li>I ask questions to gain a deeper insight.</li>
+</ol>
+</div>
+</section>
+
+<footer>
+    <p id="textFooter">This document was last modified:</p>
+    <p id="date"></p>
+    <script>
+        let text = document.lastModified;
+        document.getElementById("date").innerHTML = text;
+    </script>
+    <p><a href="mailto:nirmalsubedi@example.com">Send an Email!</a></p>
+</footer>
+</body>
+</html>
